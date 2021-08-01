@@ -207,7 +207,7 @@ export default function Login({ navigation: { navigate } }) {
       />
     )
   }
-  // ??????
+  // adds or removes the error with invalid phone number
   function inputIsValid() {
     if (!phoneNumberIsValid()) {
       if (!invalids.includes(PhonePlaceholder)) setInvalids([...invalids, PhonePlaceholder])
