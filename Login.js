@@ -294,7 +294,6 @@ export default function Login({ navigation: { navigate } }) {
       </View>
       <TouchableOpacity
         onPress={() => setIsPhoneNumberNew(true)}
-      // onPress={() => getUser({ variables: { firebaseID: 'Mzf8TR5qm5eZ83TRgE9MKHXGCMn1' } })}>
       >
         <ThemeText
           type={'header'}
